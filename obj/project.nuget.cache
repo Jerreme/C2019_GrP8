@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kyai+UBM7HJd6JHdlPbhYoh+8W3Fv1SOpndBliiWE8cY/nf9SY0J7soe4yEjp8hJOP/ekMH7oVKdb4cUTDEl0A==",
+  "dgSpecHash": "4WBFA72R6Mq3wggLGkFutv6qZRr2b0GhSK5w41wY91E33DF+MWNX4167mRgaUJJgekvgee2N2f8BM2MalzU1wg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jiide\\Documents\\Visual Studio 2019\\Projects\\DoggosKitties\\DoggosKitties.csproj",
+  "projectFilePath": "C:\\Users\\jiide\\Documents\\Visual Studio 2019\\Projects\\straypetsonline\\straypetsonline.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jiide\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.24\\microsoft.aspnetcore.cryptography.internal.3.1.24.nupkg.sha512",
     "C:\\Users\\jiide\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.24\\microsoft.aspnetcore.cryptography.keyderivation.3.1.24.nupkg.sha512",

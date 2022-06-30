@@ -5703,11 +5703,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jiide\\Documents\\Visual Studio 2019\\Projects\\DoggosKitties\\DoggosKitties.csproj",
-      "projectName": "DoggosKitties",
-      "projectPath": "C:\\Users\\jiide\\Documents\\Visual Studio 2019\\Projects\\DoggosKitties\\DoggosKitties.csproj",
+      "projectUniqueName": "C:\\Users\\jiide\\Documents\\Visual Studio 2019\\Projects\\straypetsonline\\straypetsonline.csproj",
+      "projectName": "straypetsonline",
+      "projectPath": "C:\\Users\\jiide\\Documents\\Visual Studio 2019\\Projects\\straypetsonline\\straypetsonline.csproj",
       "packagesPath": "C:\\Users\\jiide\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jiide\\Documents\\Visual Studio 2019\\Projects\\DoggosKitties\\obj\\",
+      "outputPath": "C:\\Users\\jiide\\Documents\\Visual Studio 2019\\Projects\\straypetsonline\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jiide\\AppData\\Roaming\\NuGet\\NuGet.Config",

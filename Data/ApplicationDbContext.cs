@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DoggosKitties.Data
+namespace straypetsonline.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

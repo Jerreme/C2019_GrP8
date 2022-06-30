@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 
-namespace DoggosKitties.Data.Migrations
+namespace straypetsonline.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {

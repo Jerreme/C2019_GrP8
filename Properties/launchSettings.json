@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:45811",
-      "sslPort": 44368
+      "applicationUrl": "http://localhost:5450",
+      "sslPort": 44306
     }
   },
   "profiles": {
@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "DoggosKitties": {
+    "straypetsonline": {
       "commandName": "Project",
       "launchBrowser": true,
       "applicationUrl": "https://localhost:5001;http://localhost:5000",
