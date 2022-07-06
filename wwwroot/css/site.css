@@ -16,3 +16,7 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.navbar-collapse .navbar-nav li {
+    color: crimson;
+}
