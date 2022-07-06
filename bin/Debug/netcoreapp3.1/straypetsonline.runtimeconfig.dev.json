@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\jiide\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\jiide\\.nuget\\packages"
-    ]
-  }
-}
