@@ -4,8 +4,54 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+@*--Css--*@
+<link rel="stylesheet" href="~/css/home.css"/>
 
+
+@*<div class="text-center">
+    <h1 class="display-4">StrayPetOnline</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>*@
+
+<section class="parent-all">
+    <div class="px-4 py-5 my-5 text-center">
+        <img src="Images/Logos/cat_puppy.png" alt="Dog&Cat Photo" width="300" height="300" />
+        <h1 class="display-1 fw-bold">Stray Pet Online</h1>
+        <h6 class="display-6 fw-bold">Pet Adoption Website</h6>
+
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Nowadays, people are busy in their daily life and having a lot of stress from their working area. Most of them would like to have a pet to accompany in their daily life and also can release the stress that they received but they don't have the budget to buy a pet. So this website "Stray Pet Online" will help their problem of having a pet without spending any amount of money.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                @*<a class="link text-dark" asp-area="" asp-page="/index">
+                <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
+                </a>
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>*@
+            </div>
+        </div>
+
+        <div class="overflow-hidden" style="max-height: 50vh;">
+            <div class="container px-5">
+                <img src="Images\Dogs and Cats\priscilla-du-preez-qtkpOxCpl0Y-unsplash.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+    <div class="divider-white"></div>
+
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="Images\Dogs and Cats\50 Pics That Are Proof Two Cats Are Better Than One.jfif" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">Ready to Adopt?</h1>
+                <p class="lead">We are committed to finding loving homes for these rescued animals, so all interested adopters go through a screening process. Find out if you can give one of these lovely shelter residents a home. Submit your application form below.</p>    
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Submit your application</button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

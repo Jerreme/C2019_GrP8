@@ -68,3 +68,4 @@ C:\Users\jiide\Documents\Visual Studio 2022\Projects\StrayPetOnline\obj\Debug\ne
 C:\Users\jiide\Documents\Visual Studio 2022\Projects\StrayPetOnline\obj\Debug\net6.0\StrayPetOnline.pdb
 C:\Users\jiide\Documents\Visual Studio 2022\Projects\StrayPetOnline\obj\Debug\net6.0\StrayPetOnline.genruntimeconfig.cache
 C:\Users\jiide\Documents\Visual Studio 2022\Projects\StrayPetOnline\obj\Debug\net6.0\ref\StrayPetOnline.dll
+C:\Users\jiide\Documents\Visual Studio 2022\Projects\StrayPetOnline\bin\Debug\net6.0\libman.json
