@@ -28,34 +28,34 @@
                     <ul class="navbar-nav flex-grow-1">
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="index">Home</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/privacy">Adopt Pets</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="adopt">Adopt</a>
                         </li>
 
                         <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">More</a>
                           <ul class="dropdown-menu" aria-labelledby="dropdown10">
-                            <li><a class="dropdown-item" asp-area="" asp-page="/privacy">Return Pets</a></li>
-                            <li><a class="dropdown-item" asp-area="" asp-page="/privacy">Send Stray Pets</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-page="returnpet">Return Pets</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-page="sendpet">Send Stray Pets</a></li>
                           </ul>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/privacy">Donate</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="donate">Donate</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/privacy">Contact Us</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="contactus">Contact Us</a>
                         </li>
                     </ul>
 
                     @*Search Bar*@
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        @*<button class="btn btn-outline-success" type="submit">Search</button>*@
                     </form>
 
                     <partial name="_LoginPartial" />

@@ -1,0 +1,185 @@
+﻿@page
+@model StrayPetOnline.Pages.AdoptModel
+@{
+    ViewData["Title"] = "Adopt";
+}
+
+<style>
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+    }
+
+    /*media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+              font-size: 3.5rem;
+            }
+          }*/
+
+    .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+    }
+
+    .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+    }
+
+    .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+    }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .heading-1  {
+            background-color:slategray;
+            background-image: url("../../Images/Dogs and Cats/bg1.jpg");
+            width: 100%;
+            background-blend-mode: multiply;
+
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .bd-placeholder-img {
+            background-image: url("../../Images/Dogs and Cats/bg1.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+</style>
+
+
+<div class="p-4 p-md-5 mb-4 text-white rounded heading-1">
+    <div class="col-md-6 px-0">
+        <h1 class="display-4 fst-italic">Adopt a Pet from the StrayPetOnline</h1>
+        <p class="lead my-3">Thank you for your interest in adopting from the StrayPetOnline Adoption Website! Please take a look at our adoptable dogs and cats below, and if you’re interested in adopting, complete an adoption survey for that pet. </p>
+        @*<p class="lead mb-2"><a href="" class="text-white fw-bold">Continue reading...</a></p>*@
+    </div>
+</div>
+
+
+<div class="row mb-2">
+    <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary">Dog</strong>
+                <h3 class="mb-0">Ollie</h3>
+                <div class="mb-1 text-muted">May 22</div>
+                <p class="card-text mb-auto">I'm being cared for by Private owner (Pasig, Phillipines)</p>
+                <a href="#" class="stretched-link">Adopt Ollie</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success">Cat</strong>
+                <h3 class="mb-0">Maine</h3>
+                <div class="mb-1 text-muted">Jan 11</div>
+                <p class="mb-auto">I'm being cared for by Private owner (Taguig, Phillipines)</p>
+                <a href="#" class="stretched-link">Adopt Maine</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-2">
+    <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary">Dog</strong>
+                <h3 class="mb-0">Jeremiah</h3>
+                <div class="mb-1 text-muted">May 22</div>
+                <p class="card-text mb-auto">I'm being cared for by Private owner (Pasig, Phillipines)</p>
+                <a href="#" class="stretched-link">Adopt Jeremiah</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success">Dog</strong>
+                <h3 class="mb-0">Aldin</h3>
+                <div class="mb-1 text-muted">Jan 11</div>
+                <p class="mb-auto">I'm being cared for by Private owner (Taguig, Phillipines)</p>
+                <a href="#" class="stretched-link">Adopt Aldin</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-2">
+    <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary">Cat</strong>
+                <h3 class="mb-0">Olive</h3>
+                <div class="mb-1 text-muted">May 22</div>
+                <p class="card-text mb-auto">I'm being cared for by Private owner (Pasig, Phillipines)</p>
+                <a href="#" class="stretched-link">Adopt Olive</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success">Dog</strong>
+                <h3 class="mb-0">Browny</h3>
+                <div class="mb-1 text-muted">Jan 11</div>
+                <p class="mb-auto">I'm being cared for by Private owner (Taguig, Phillipines)</p>
+                <a href="#" class="stretched-link">Adopt Browny</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            </div>
+        </div>
+    </div>
+</div>
